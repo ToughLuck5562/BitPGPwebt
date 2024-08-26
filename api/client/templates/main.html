@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/elements.css') }}">
+    <title>BitPGP Main</title>
+</head>
+<body>
+    
+    <div class="title">
+
+        <h1>BitPGP Official</h1>
+        <p>Messaging made secure. 🔐</p>
+
+    </div>
+
+    <div class="marketing">
+
+        <h2>Why should you use BitPGP?</h2>
+
+        <p>Heres why.</p>
+
+        <ul class="reasons-ul">
+
+            <li><p>100% Free</p></li>
+            <li><p>100% Safe</p></li>
+            <li><p>100% Secure</p></li>
+            <li><p>Easy Setup</p></li>
+            <li><p>Easy To Use</p></li>
+            <li><p>Awesome!</p></li>
+
+        </ul>
+
+        <div class="button-container">
+
+            <button class="download-btn" onclick="window.location.href='https://github.com/ToughLuck5562/BitPGP/raw/main/BitPGP.zip'">Download Now</button>
+            <button class="documentation-btn" onclick="window.location.href='/documentation'">Documentation</button>
+
+        </div>
+
+        <h2>Preview</h2>
+
+        <img class="preview-img" src="../static/content/preview.PNG" alt="">
+
+    </div>
+        
+</body>
+</html>
